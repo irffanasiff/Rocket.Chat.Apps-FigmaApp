@@ -62,9 +62,6 @@ export class WebhookEndpoint extends ApiEndpoint {
         const message = modify.getCreator().startMessage({
             room,
             sender,
-            //   avatarUrl: payload.sender.avatar_url,
-            //   alias: payload.sender.login,
-            //   text: `[${payload.sender.login}](${payload.sender.html_url}) just pushed ${payload.commits.length} commits to [${payload.repository.full_name}](${payload.repository.html_url})`,
             text: "successful",
         });
 

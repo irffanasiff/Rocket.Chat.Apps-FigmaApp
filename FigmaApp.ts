@@ -104,6 +104,7 @@ export class FigmaApp extends App {
             success: true,
         };
     }
+    
     // this is called whenever any block in block element in modal is interacted with
     public async executeBlockActionHandler(
         context: UIKitBlockInteractionContext,

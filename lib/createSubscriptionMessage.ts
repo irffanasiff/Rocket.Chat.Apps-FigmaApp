@@ -52,7 +52,7 @@ export async function createSubscription(
     );
 
     const fileID = getFileID(url);
-    //const fileName = getFileName(url);
+    // const fileName = getFileName(url);
 
     const sdk = new FigmaSDK(http, token);
     // url - https://0be4-2409-4054-1c-bace-1b6c-7de9-c986-693a.ngrok.io
