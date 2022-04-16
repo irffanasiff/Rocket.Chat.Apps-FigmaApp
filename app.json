@@ -1,0 +1,16 @@
+{
+    "id": "1da5353c-05f4-4d02-8556-2f134cec7355",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Irfan Asif",
+        "homepage": "https://github.com/demonicirfan",
+        "support": "https://github.com/demonicirfan/figmaApp/issues"
+    },
+    "name": "FigmaApp",
+    "nameSlug": "figma",
+    "classFile": "FigmaApp.ts",
+    "description": "Get relevant updates from Figma into Rocket Chat",
+    "implements": []
+}
